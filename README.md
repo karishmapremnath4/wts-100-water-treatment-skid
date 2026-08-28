@@ -44,10 +44,17 @@ Two things here are easy to get wrong and I had to think about both:
 
 ## Running it in OpenPLC
 
-The POUs are not only Python. `POU_SAFETY` and `POU_PUMPS` compile and run in
-OpenPLC as Structured Text, built through the OpenPLC Simulator toolchain. The
-copies in `plc/openplc/` are stripped of the comment headers so they paste
-straight into the OpenPLC Editor.
+The logic is not only Python. I entered the safety block in OpenPLC as Structured
+Text and ran it through the OpenPLC Simulator toolchain.
+
+`plc/openplc/pou_safety.st` is the safety function block with the comment headers
+stripped, so it pastes straight into the OpenPLC Editor. `plc/openplc/main.st` is a
+small test program that instantiates it, wires the ten inputs, and exposes TRIP,
+FIRST_OUT and the three permissions as variables you can watch in the debugger.
+
+It starts with `ESD_01_OK := FALSE`, so on the first scan it should trip with all
+three permissions false and FIRST_OUT = 1. Set `ESD_01_OK` true, pulse
+`HS_04_RESET`, and the trip clears.
 
 ## Testing
 

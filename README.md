@@ -52,9 +52,19 @@ stripped, so it pastes straight into the OpenPLC Editor. `plc/openplc/main.st` i
 small test program that instantiates it, wires the ten inputs, and exposes TRIP,
 FIRST_OUT and the three permissions as variables you can watch in the debugger.
 
-It starts with `ESD_01_OK := FALSE`, so on the first scan it should trip with all
-three permissions false and FIRST_OUT = 1. Set `ESD_01_OK` true, pulse
-`HS_04_RESET`, and the trip clears.
+It starts with `ESD_01_OK := FALSE`, so on the first scan it trips with all three
+permissions false and FIRST_OUT = 1. Set `ESD_01_OK` true, pulse `HS_04_RESET`, and
+the trip clears.
+
+Compiled and running in the OpenPLC Simulator, with the debugger attached:
+
+![OpenPLC compile and run](screenshots/openplc_compile_and_run.png)
+
+The debugger shows the live values inside the safety block. The e-stop is FALSE, so
+TRIP_CAUSE goes TRUE, TRIP latches TRUE and FIRST_OUT is set to 1 - the same result
+FAT-01 checks in the Python suite, running here in a real IEC 61131-3 runtime.
+
+![OpenPLC trip debug](screenshots/openplc_trip_debug.png)
 
 ## Testing
 
@@ -80,6 +90,7 @@ Expected against actual for every case is in [docs/04_FAT_results.md](docs/04_FA
     plc/           Structured Text POUs, and the OpenPLC versions
     sim/           simulated plant, controller, HMI, historian, the FAT
     tests/         ladder logic tests
+    screenshots/   OpenPLC running the safety block
     tools/         the scripts that draw the diagrams and make the PDFs
     pdf/           the documents as PDFs
 

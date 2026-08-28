@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 940" width="1500" height="940">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#000"/></marker><style>
+ text{font-family:Helvetica,Arial,sans-serif;text-anchor:middle;fill:#000}
+ .st{font-size:16px;font-weight:700}
+ .ac{font-size:10.5px}
+ .cd{font-size:11px;font-weight:700;fill:#8a6d00}
+ .h1{font-size:17px;font-weight:700;text-anchor:start}
+ .h2{font-size:10px;text-anchor:start}
+ .nt{font-size:10.5px;text-anchor:start}
+ .ntb{font-size:11px;text-anchor:start;font-weight:700}
+</style></defs>
+<rect width="1500" height="940" fill="#fff"/>
+<rect x="12" y="12" width="1476" height="916" fill="none" stroke="#000" stroke-width="1"/>
+<text x="34" y="44" class="h1">POU_SEQUENCE   batch state machine</text>
+<text x="34" y="61" class="h2">WTS-100 Water Treatment and Transfer Skid   |   one state active at a time   |   every transition and timeout defined</text>
+<line x1="34" y1="72" x2="1466" y2="72" stroke="#000" stroke-width="1"/>
+<rect x="120" y="100" width="250" height="96" rx="6" fill="#fff" stroke="#000" stroke-width="1.8"/>
+<text x="245.0" y="125" class="st">IDLE</text>
+<text x="245.0" y="145" class="ac">all outputs off</text>
+<text x="245.0" y="160" class="ac">both valves closed</text>
+<rect x="120" y="232" width="250" height="96" rx="6" fill="#fff" stroke="#000" stroke-width="1.8"/>
+<text x="245.0" y="257" class="st">FILL</text>
+<text x="245.0" y="277" class="ac">XV-101 open, duty pump on</text>
+<text x="245.0" y="292" class="ac">fixed flow 30 m3/h</text>
+<text x="245.0" y="307" class="ac">heater off, dosing off</text>
+<rect x="120" y="364" width="250" height="96" rx="6" fill="#fff" stroke="#000" stroke-width="1.8"/>
+<text x="245.0" y="389" class="st">HEAT</text>
+<text x="245.0" y="409" class="ac">cascade on, level 1800 mm</text>
+<text x="245.0" y="424" class="ac">heater on, dosing on</text>
+<rect x="120" y="496" width="250" height="96" rx="6" fill="#fff" stroke="#000" stroke-width="1.8"/>
+<text x="245.0" y="521" class="st">HOLD</text>
+<text x="245.0" y="541" class="ac">hold level, temp, dosing</text>
+<text x="245.0" y="556" class="ac">residence timer running</text>
+<rect x="120" y="628" width="250" height="96" rx="6" fill="#fff" stroke="#000" stroke-width="1.8"/>
+<text x="245.0" y="653" class="st">DISCHARGE</text>
+<text x="245.0" y="673" class="ac">heater off, dosing off</text>
+<text x="245.0" y="688" class="ac">XV-102 open, P-102 at 60%</text>
+<rect x="120" y="760" width="250" height="96" rx="6" fill="#fff" stroke="#000" stroke-width="1.8"/>
+<text x="245.0" y="785" class="st">DRAIN</text>
+<text x="245.0" y="805" class="ac">P-102 at 100%</text>
+<text x="245.0" y="820" class="ac">empty the tank</text>
+<path d="M 245.0 196 L 245.0 232" stroke="#000" stroke-width="1.8" fill="none" marker-end="url(#a)"/>
+<text x="388" y="223" class="cd" text-anchor="start" style="text-anchor:start">Start pressed  AND  no trip  AND  LT-101 above 400 mm</text>
+<path d="M 245.0 328 L 245.0 364" stroke="#000" stroke-width="1.8" fill="none" marker-end="url(#a)"/>
+<text x="388" y="355" class="cd" text-anchor="start" style="text-anchor:start">LT-102 reaches 1200 mm</text>
+<path d="M 245.0 460 L 245.0 496" stroke="#000" stroke-width="1.8" fill="none" marker-end="url(#a)"/>
+<text x="388" y="487" class="cd" text-anchor="start" style="text-anchor:start">TT-102 within 0.5 degC of setpoint for 60 s continuous</text>
+<path d="M 245.0 592 L 245.0 628" stroke="#000" stroke-width="1.8" fill="none" marker-end="url(#a)"/>
+<text x="388" y="619" class="cd" text-anchor="start" style="text-anchor:start">residence timer reaches 600 s</text>
+<path d="M 245.0 724 L 245.0 760" stroke="#000" stroke-width="1.8" fill="none" marker-end="url(#a)"/>
+<text x="388" y="751" class="cd" text-anchor="start" style="text-anchor:start">LT-102 falls to 300 mm</text>
+<text x="362" y="320" class="nt" style="text-anchor:end;font-style:italic">timeout 900 s</text>
+<text x="362" y="452" class="nt" style="text-anchor:end;font-style:italic">timeout 5400 s</text>
+<text x="362" y="716" class="nt" style="text-anchor:end;font-style:italic">timeout 600 s</text>
+<path d="M 120 808.0 L 62 808.0 L 62 148.0 L 120 148.0" stroke="#000" stroke-width="1.8" fill="none" marker-end="url(#a)"/>
+<text x="245.0" y="882" class="cd">LT-102 below 50 mm for 10 s, then back to IDLE</text>
+<rect x="1010" y="300" width="250" height="110" rx="6" fill="#f7f7f7" stroke="#000" stroke-width="1.8"/>
+<text x="1135.0" y="325" class="st">TRIP</text>
+<text x="1135.0" y="345" class="ac">all pumps off, heater off</text>
+<text x="1135.0" y="360" class="ac">both valves closed</text>
+<text x="1135.0" y="375" class="ac">LATCHED</text>
+<text x="1135" y="432" class="nt" style="text-anchor:middle;font-style:italic">entered from ANY state</text>
+<path d="M 370 280.0 L 880 280.0" stroke="#000" stroke-width="1.2" stroke-dasharray="5,4" fill="none"/>
+<path d="M 370 412.0 L 880 412.0" stroke="#000" stroke-width="1.2" stroke-dasharray="5,4" fill="none"/>
+<path d="M 370 544.0 L 880 544.0" stroke="#000" stroke-width="1.2" stroke-dasharray="5,4" fill="none"/>
+<path d="M 880 280.0 L 880 544.0" stroke="#000" stroke-width="1.2" stroke-dasharray="5,4" fill="none"/>
+<path d="M 880 355 L 1010 355" stroke="#000" stroke-width="1.2" stroke-dasharray="5,4" fill="none" marker-end="url(#a)"/>
+<text x="946" y="345" class="cd">any interlock</text>
+<path d="M 1135 300 L 1135 250" stroke="#000" stroke-width="1.8" fill="none" marker-end="url(#a)"/>
+<text x="1145" y="240" class="nt" style="text-anchor:start">to IDLE only when the cause has cleared AND operator presses Reset</text>
+<rect x="1010" y="600" width="440" height="250" fill="none" stroke="#000" stroke-width="1.2"/>
+<line x1="1010" y1="622" x2="1450" y2="622" stroke="#000" stroke-width="1.2"/>
+<text x="1020" y="615" class="ntb">DESIGN NOTES</text>
+<text x="1020" y="642" class="ntb">Fixed flow during FILL</text>
+<text x="1190" y="642" class="nt">there is no level worth controlling</text>
+<text x="1020" y="661" class="nt">until the tank has something in it</text>
+<text x="1020" y="680" class="ntb">60 s stable before HOLD</text>
+<text x="1190" y="680" class="nt">stops a momentary excursion through</text>
+<text x="1020" y="699" class="nt">setpoint advancing a stratified tank</text>
+<text x="1020" y="718" class="ntb">10 s confirm before IDLE</text>
+<text x="1190" y="718" class="nt">a splash as the last liquid clears</text>
+<text x="1020" y="737" class="nt">the tapping must not end the batch</text>
+<text x="1020" y="756" class="ntb">Timeouts 2 to 3x expected</text>
+<text x="1190" y="756" class="nt">too tight nuisance trips, too loose</text>
+<text x="1020" y="775" class="nt">hides a real fault for far too long</text>
+<text x="1020" y="794" class="ntb">Stop order on abort</text>
+<text x="1190" y="794" class="nt">heater, dosing, pumps, valves.</text>
+<text x="1020" y="813" class="nt">The heater is never left on in a tank</text>
+<text x="1020" y="832" class="nt">that is being emptied.</text>
+</svg>

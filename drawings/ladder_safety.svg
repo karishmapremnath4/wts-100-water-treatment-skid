@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1560 980" width="1560" height="980">
+<defs><style>
+      text { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; text-anchor: middle; fill:#000; }
+      .tag  { font-size: 10.5px; font-weight: 600; }
+      .desc { font-size: 8.5px; }
+      .rung { font-size: 11px; font-weight: 700; text-anchor: end; }
+      .note { font-size: 9.5px; text-anchor: start; font-style: italic; }
+      .h1   { font-size: 16px; font-weight: 700; text-anchor: start; letter-spacing:.4px; }
+      .h2   { font-size: 9.5px; text-anchor: start; }
+      .cmt  { font-size: 9.5px; text-anchor: start; font-weight: 600; }
+    </style></defs>
+<rect width="1560" height="980" fill="#fff"/>
+<rect x="12" y="12" width="1536" height="956" fill="none" stroke="#000" stroke-width="1"/>
+<text x="30" y="40" class="h1">POU_SAFETY   Interlocks and Permissives</text>
+<text x="30" y="57" class="h2">WTS-100 Water Treatment and Transfer Skid   |   IEC 61131-3 Ladder Diagram   |   Executed first every scan</text>
+<line x1="30" y1="66" x2="1530" y2="66" stroke="#000" stroke-width="1"/>
+<line x1="96" y1="90" x2="96" y2="910" stroke="#000" stroke-width="2.5"/>
+<line x1="1500" y1="90" x2="1500" y2="910" stroke="#000" stroke-width="2.5"/>
+<text x="30" y="110" class="cmt">RUNG 1   trip causes.  Any one of these trips.  Safety contacts are wired normally closed, so healthy = TRUE.</text>
+<text x="82" y="154" class="rung">1</text>
+<line x1="96" y1="150" x2="157.0" y2="150" stroke="#000" stroke-width="1.6"/>
+<line x1="157.0" y1="137" x2="157.0" y2="163" stroke="#000" stroke-width="2.2"/>
+<line x1="183.0" y1="137" x2="183.0" y2="163" stroke="#000" stroke-width="2.2"/>
+<line x1="154.0" y1="164" x2="186.0" y2="136" stroke="#000" stroke-width="2"/>
+<text x="170.0" y="130" class="tag">ESD_01_OK</text>
+<text x="170.0" y="177" class="desc">emergency stop pressed</text>
+<line x1="183.0" y1="150" x2="244" y2="150" stroke="#000" stroke-width="1.6"/>
+<line x1="244" y1="150" x2="392" y2="150" stroke="#000" stroke-width="1.6"/>
+<line x1="96" y1="150" x2="96" y2="324" stroke="#000" stroke-width="1.6"/>
+<line x1="392" y1="150" x2="392" y2="324" stroke="#000" stroke-width="1.6"/>
+<line x1="96" y1="208" x2="157.0" y2="208" stroke="#000" stroke-width="1.6"/>
+<line x1="157.0" y1="195" x2="157.0" y2="221" stroke="#000" stroke-width="2.2"/>
+<line x1="183.0" y1="195" x2="183.0" y2="221" stroke="#000" stroke-width="2.2"/>
+<line x1="154.0" y1="222" x2="186.0" y2="194" stroke="#000" stroke-width="2"/>
+<text x="170.0" y="188" class="tag">TSHH_102_OK</text>
+<text x="170.0" y="235" class="desc">over temperature</text>
+<line x1="183.0" y1="208" x2="244" y2="208" stroke="#000" stroke-width="1.6"/>
+<line x1="244" y1="208" x2="392" y2="208" stroke="#000" stroke-width="1.6"/>
+<line x1="96" y1="266" x2="157.0" y2="266" stroke="#000" stroke-width="1.6"/>
+<line x1="157.0" y1="253" x2="157.0" y2="279" stroke="#000" stroke-width="2.2"/>
+<line x1="183.0" y1="253" x2="183.0" y2="279" stroke="#000" stroke-width="2.2"/>
+<line x1="154.0" y1="280" x2="186.0" y2="252" stroke="#000" stroke-width="2"/>
+<text x="170.0" y="246" class="tag">XA_101A_OK</text>
+<text x="170.0" y="293" class="desc">pump A overload</text>
+<line x1="183.0" y1="266" x2="244" y2="266" stroke="#000" stroke-width="1.6"/>
+<line x1="244" y1="266" x2="305.0" y2="266" stroke="#000" stroke-width="1.6"/>
+<line x1="305.0" y1="253" x2="305.0" y2="279" stroke="#000" stroke-width="2.2"/>
+<line x1="331.0" y1="253" x2="331.0" y2="279" stroke="#000" stroke-width="2.2"/>
+<line x1="302.0" y1="280" x2="334.0" y2="252" stroke="#000" stroke-width="2"/>
+<text x="318.0" y="246" class="tag">XA_101B_OK</text>
+<text x="318.0" y="293" class="desc">pump B overload</text>
+<line x1="331.0" y1="266" x2="392" y2="266" stroke="#000" stroke-width="1.6"/>
+<line x1="96" y1="324" x2="157.0" y2="324" stroke="#000" stroke-width="1.6"/>
+<line x1="157.0" y1="311" x2="157.0" y2="337" stroke="#000" stroke-width="2.2"/>
+<line x1="183.0" y1="311" x2="183.0" y2="337" stroke="#000" stroke-width="2.2"/>
+<text x="170.0" y="304" class="tag">AIN_FAULT</text>
+<text x="170.0" y="351" class="desc">analog invalid over 30 s</text>
+<line x1="183.0" y1="324" x2="244" y2="324" stroke="#000" stroke-width="1.6"/>
+<line x1="244" y1="324" x2="392" y2="324" stroke="#000" stroke-width="1.6"/>
+<line x1="392" y1="150" x2="1163" y2="150" stroke="#000" stroke-width="1.6"/>
+<path d="M 1163 136 A 18 18 0 0 0 1163 164" fill="none" stroke="#000" stroke-width="2.2"/>
+<path d="M 1197 136 A 18 18 0 0 1 1197 164" fill="none" stroke="#000" stroke-width="2.2"/>
+<line x1="1197" y1="150" x2="1500" y2="150" stroke="#000" stroke-width="1.6"/>
+<text x="1180" y="130" class="tag">TRIP_CAUSE</text>
+<text x="1180" y="177" class="desc">a trip condition is present</text>
+<text x="480.8" y="270" class="note">these two are in series, so ONE failed pump does not trip</text>
+<text x="30" y="380" class="cmt">RUNG 2   trip latch, with seal in.</text>
+<text x="82" y="424" class="rung">2</text>
+<line x1="96" y1="420" x2="157.0" y2="420" stroke="#000" stroke-width="1.6"/>
+<line x1="157.0" y1="407" x2="157.0" y2="433" stroke="#000" stroke-width="2.2"/>
+<line x1="183.0" y1="407" x2="183.0" y2="433" stroke="#000" stroke-width="2.2"/>
+<text x="170.0" y="400" class="tag">TRIP_CAUSE</text>
+<line x1="183.0" y1="420" x2="244" y2="420" stroke="#000" stroke-width="1.6"/>
+<line x1="96" y1="420" x2="96" y2="478" stroke="#000" stroke-width="1.6"/>
+<line x1="244" y1="420" x2="244" y2="478" stroke="#000" stroke-width="1.6"/>
+<line x1="96" y1="478" x2="157.0" y2="478" stroke="#000" stroke-width="1.6"/>
+<line x1="157.0" y1="465" x2="157.0" y2="491" stroke="#000" stroke-width="2.2"/>
+<line x1="183.0" y1="465" x2="183.0" y2="491" stroke="#000" stroke-width="2.2"/>
+<text x="170.0" y="458" class="tag">TRIP</text>
+<text x="170.0" y="505" class="desc">seal in</text>
+<line x1="183.0" y1="478" x2="244" y2="478" stroke="#000" stroke-width="1.6"/>
+<line x1="244" y1="420" x2="1163" y2="420" stroke="#000" stroke-width="1.6"/>
+<path d="M 1163 406 A 18 18 0 0 0 1163 434" fill="none" stroke="#000" stroke-width="2.2"/>
+<path d="M 1197 406 A 18 18 0 0 1 1197 434" fill="none" stroke="#000" stroke-width="2.2"/>
+<text x="1180" y="425" class="tag">L</text>
+<line x1="1197" y1="420" x2="1500" y2="420" stroke="#000" stroke-width="1.6"/>
+<text x="1180" y="400" class="tag">TRIP</text>
+<text x="1180" y="447" class="desc">latched until reset</text>
+<text x="30" y="520" class="cmt">RUNG 3   reset.  Unlatches only when the cause has already cleared.</text>
+<text x="82" y="564" class="rung">3</text>
+<line x1="96" y1="560" x2="157.0" y2="560" stroke="#000" stroke-width="1.6"/>
+<line x1="157.0" y1="547" x2="157.0" y2="573" stroke="#000" stroke-width="2.2"/>
+<line x1="183.0" y1="547" x2="183.0" y2="573" stroke="#000" stroke-width="2.2"/>
+<text x="170.0" y="540" class="tag">HS_04_RESET</text>
+<text x="170.0" y="587" class="desc">reset pushbutton</text>
+<line x1="183.0" y1="560" x2="244" y2="560" stroke="#000" stroke-width="1.6"/>
+<line x1="244" y1="560" x2="305.0" y2="560" stroke="#000" stroke-width="1.6"/>
+<line x1="305.0" y1="547" x2="305.0" y2="573" stroke="#000" stroke-width="2.2"/>
+<line x1="331.0" y1="547" x2="331.0" y2="573" stroke="#000" stroke-width="2.2"/>
+<line x1="302.0" y1="574" x2="334.0" y2="546" stroke="#000" stroke-width="2"/>
+<text x="318.0" y="540" class="tag">TRIP_CAUSE</text>
+<text x="318.0" y="587" class="desc">no cause present</text>
+<line x1="331.0" y1="560" x2="392" y2="560" stroke="#000" stroke-width="1.6"/>
+<line x1="392" y1="560" x2="1163" y2="560" stroke="#000" stroke-width="1.6"/>
+<path d="M 1163 546 A 18 18 0 0 0 1163 574" fill="none" stroke="#000" stroke-width="2.2"/>
+<path d="M 1197 546 A 18 18 0 0 1 1197 574" fill="none" stroke="#000" stroke-width="2.2"/>
+<text x="1180" y="565" class="tag">U</text>
+<line x1="1197" y1="560" x2="1500" y2="560" stroke="#000" stroke-width="1.6"/>
+<text x="1180" y="540" class="tag">TRIP</text>
+<text x="30" y="630" class="cmt">RUNG 4   permission to run the raw water pumps.  I2 dry run, I3 overfill.</text>
+<text x="82" y="674" class="rung">4</text>
+<line x1="96" y1="670" x2="157.0" y2="670" stroke="#000" stroke-width="1.6"/>
+<line x1="157.0" y1="657" x2="157.0" y2="683" stroke="#000" stroke-width="2.2"/>
+<line x1="183.0" y1="657" x2="183.0" y2="683" stroke="#000" stroke-width="2.2"/>
+<text x="170.0" y="650" class="tag">ESD_01_OK</text>
+<line x1="183.0" y1="670" x2="244" y2="670" stroke="#000" stroke-width="1.6"/>
+<line x1="244" y1="670" x2="305.0" y2="670" stroke="#000" stroke-width="1.6"/>
+<line x1="305.0" y1="657" x2="305.0" y2="683" stroke="#000" stroke-width="2.2"/>
+<line x1="331.0" y1="657" x2="331.0" y2="683" stroke="#000" stroke-width="2.2"/>
+<text x="318.0" y="650" class="tag">LSLL_101_OK</text>
+<text x="318.0" y="697" class="desc">raw tank not empty</text>
+<line x1="331.0" y1="670" x2="392" y2="670" stroke="#000" stroke-width="1.6"/>
+<line x1="392" y1="670" x2="453.0" y2="670" stroke="#000" stroke-width="1.6"/>
+<line x1="453.0" y1="657" x2="453.0" y2="683" stroke="#000" stroke-width="2.2"/>
+<line x1="479.0" y1="657" x2="479.0" y2="683" stroke="#000" stroke-width="2.2"/>
+<text x="466.0" y="650" class="tag">LSHH_102_OK</text>
+<text x="466.0" y="697" class="desc">treat tank not full</text>
+<line x1="479.0" y1="670" x2="540" y2="670" stroke="#000" stroke-width="1.6"/>
+<line x1="540" y1="670" x2="601.0" y2="670" stroke="#000" stroke-width="1.6"/>
+<line x1="601.0" y1="657" x2="601.0" y2="683" stroke="#000" stroke-width="2.2"/>
+<line x1="627.0" y1="657" x2="627.0" y2="683" stroke="#000" stroke-width="2.2"/>
+<line x1="598.0" y1="684" x2="630.0" y2="656" stroke="#000" stroke-width="2"/>
+<text x="614.0" y="650" class="tag">TRIP</text>
+<line x1="627.0" y1="670" x2="688" y2="670" stroke="#000" stroke-width="1.6"/>
+<line x1="688" y1="670" x2="1163" y2="670" stroke="#000" stroke-width="1.6"/>
+<path d="M 1163 656 A 18 18 0 0 0 1163 684" fill="none" stroke="#000" stroke-width="2.2"/>
+<path d="M 1197 656 A 18 18 0 0 1 1197 684" fill="none" stroke="#000" stroke-width="2.2"/>
+<line x1="1197" y1="670" x2="1500" y2="670" stroke="#000" stroke-width="1.6"/>
+<text x="1180" y="650" class="tag">PERM_RAW_PUMPS</text>
+<text x="30" y="730" class="cmt">RUNG 5   permission to run the heater.  I4 over temperature, I5 low level.</text>
+<text x="82" y="774" class="rung">5</text>
+<line x1="96" y1="770" x2="157.0" y2="770" stroke="#000" stroke-width="1.6"/>
+<line x1="157.0" y1="757" x2="157.0" y2="783" stroke="#000" stroke-width="2.2"/>
+<line x1="183.0" y1="757" x2="183.0" y2="783" stroke="#000" stroke-width="2.2"/>
+<text x="170.0" y="750" class="tag">ESD_01_OK</text>
+<line x1="183.0" y1="770" x2="244" y2="770" stroke="#000" stroke-width="1.6"/>
+<line x1="244" y1="770" x2="305.0" y2="770" stroke="#000" stroke-width="1.6"/>
+<line x1="305.0" y1="757" x2="305.0" y2="783" stroke="#000" stroke-width="2.2"/>
+<line x1="331.0" y1="757" x2="331.0" y2="783" stroke="#000" stroke-width="2.2"/>
+<text x="318.0" y="750" class="tag">TSHH_102_OK</text>
+<line x1="331.0" y1="770" x2="392" y2="770" stroke="#000" stroke-width="1.6"/>
+<line x1="392" y1="770" x2="453.0" y2="770" stroke="#000" stroke-width="1.6"/>
+<line x1="453.0" y1="757" x2="453.0" y2="783" stroke="#000" stroke-width="2.2"/>
+<line x1="479.0" y1="757" x2="479.0" y2="783" stroke="#000" stroke-width="2.2"/>
+<text x="466.0" y="750" class="tag">LT_102_VALID</text>
+<text x="466.0" y="797" class="desc">level reading good</text>
+<line x1="479.0" y1="770" x2="540" y2="770" stroke="#000" stroke-width="1.6"/>
+<line x1="540" y1="770" x2="601.0" y2="770" stroke="#000" stroke-width="1.6"/>
+<line x1="601.0" y1="757" x2="601.0" y2="783" stroke="#000" stroke-width="2.2"/>
+<line x1="627.0" y1="757" x2="627.0" y2="783" stroke="#000" stroke-width="2.2"/>
+<text x="614.0" y="750" class="tag">TT_102_VALID</text>
+<text x="614.0" y="797" class="desc">temp reading good</text>
+<line x1="627.0" y1="770" x2="688" y2="770" stroke="#000" stroke-width="1.6"/>
+<line x1="688" y1="770" x2="749.0" y2="770" stroke="#000" stroke-width="1.6"/>
+<line x1="749.0" y1="757" x2="749.0" y2="783" stroke="#000" stroke-width="2.2"/>
+<line x1="775.0" y1="757" x2="775.0" y2="783" stroke="#000" stroke-width="2.2"/>
+<text x="762.0" y="750" class="tag">LVL_ABOVE_800</text>
+<text x="762.0" y="797" class="desc">level over 800 mm</text>
+<line x1="775.0" y1="770" x2="836" y2="770" stroke="#000" stroke-width="1.6"/>
+<line x1="836" y1="770" x2="897.0" y2="770" stroke="#000" stroke-width="1.6"/>
+<line x1="897.0" y1="757" x2="897.0" y2="783" stroke="#000" stroke-width="2.2"/>
+<line x1="923.0" y1="757" x2="923.0" y2="783" stroke="#000" stroke-width="2.2"/>
+<line x1="894.0" y1="784" x2="926.0" y2="756" stroke="#000" stroke-width="2"/>
+<text x="910.0" y="750" class="tag">TRIP</text>
+<line x1="923.0" y1="770" x2="984" y2="770" stroke="#000" stroke-width="1.6"/>
+<line x1="984" y1="770" x2="1163" y2="770" stroke="#000" stroke-width="1.6"/>
+<path d="M 1163 756 A 18 18 0 0 0 1163 784" fill="none" stroke="#000" stroke-width="2.2"/>
+<path d="M 1197 756 A 18 18 0 0 1 1197 784" fill="none" stroke="#000" stroke-width="2.2"/>
+<line x1="1197" y1="770" x2="1500" y2="770" stroke="#000" stroke-width="1.6"/>
+<text x="1180" y="750" class="tag">PERM_HEATER</text>
+<text x="30" y="830" class="cmt">RUNG 6   permission to open the inlet.  I3 overfill.</text>
+<text x="82" y="874" class="rung">6</text>
+<line x1="96" y1="870" x2="157.0" y2="870" stroke="#000" stroke-width="1.6"/>
+<line x1="157.0" y1="857" x2="157.0" y2="883" stroke="#000" stroke-width="2.2"/>
+<line x1="183.0" y1="857" x2="183.0" y2="883" stroke="#000" stroke-width="2.2"/>
+<text x="170.0" y="850" class="tag">ESD_01_OK</text>
+<line x1="183.0" y1="870" x2="244" y2="870" stroke="#000" stroke-width="1.6"/>
+<line x1="244" y1="870" x2="305.0" y2="870" stroke="#000" stroke-width="1.6"/>
+<line x1="305.0" y1="857" x2="305.0" y2="883" stroke="#000" stroke-width="2.2"/>
+<line x1="331.0" y1="857" x2="331.0" y2="883" stroke="#000" stroke-width="2.2"/>
+<text x="318.0" y="850" class="tag">LSHH_102_OK</text>
+<line x1="331.0" y1="870" x2="392" y2="870" stroke="#000" stroke-width="1.6"/>
+<line x1="392" y1="870" x2="453.0" y2="870" stroke="#000" stroke-width="1.6"/>
+<line x1="453.0" y1="857" x2="453.0" y2="883" stroke="#000" stroke-width="2.2"/>
+<line x1="479.0" y1="857" x2="479.0" y2="883" stroke="#000" stroke-width="2.2"/>
+<line x1="450.0" y1="884" x2="482.0" y2="856" stroke="#000" stroke-width="2"/>
+<text x="466.0" y="850" class="tag">TRIP</text>
+<line x1="479.0" y1="870" x2="540" y2="870" stroke="#000" stroke-width="1.6"/>
+<line x1="540" y1="870" x2="1163" y2="870" stroke="#000" stroke-width="1.6"/>
+<path d="M 1163 856 A 18 18 0 0 0 1163 884" fill="none" stroke="#000" stroke-width="2.2"/>
+<path d="M 1197 856 A 18 18 0 0 1 1197 884" fill="none" stroke="#000" stroke-width="2.2"/>
+<line x1="1197" y1="870" x2="1500" y2="870" stroke="#000" stroke-width="1.6"/>
+<text x="1180" y="850" class="tag">PERM_INLET</text>
+<text x="30" y="956" class="note">POU_SAFETY issues permissions only.  It never commands a device.  Every other POU must pass through these permissions, so a defect in the sequence cannot fire the heater in an empty tank.</text>
+</svg>

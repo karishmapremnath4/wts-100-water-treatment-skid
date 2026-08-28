@@ -1,0 +1,309 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1640 1010" width="1640" height="1010">
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+  <path d="M 0 0 L 10 5 L 0 10 z" fill="#000"/></marker>
+<style>
+  text  { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; text-anchor: middle; fill:#000; }
+  .tag  { font-size: 12px; font-weight: 600; letter-spacing: .3px; }
+  .eqtag{ font-size: 12.5px; font-weight: 700; letter-spacing: .4px; }
+  .eqname{font-size: 10px; }
+  .noteL{ font-size: 10.5px; text-anchor: start; }
+  .vtag { font-size: 9.5px; font-weight: 600; }
+  .vtagL{ font-size: 9.5px; font-weight: 600; text-anchor: start; }
+  .line { font-size: 9.5px; font-weight: 600; }
+  .grid { font-size: 11px; font-weight: 700; }
+  .tbL  { font-size: 9px; text-anchor: start; letter-spacing:.4px; }
+  .tbV  { font-size: 11.5px; font-weight: 700; text-anchor: start; }
+  .tbT  { font-size: 15px; font-weight: 700; text-anchor: start; letter-spacing:.4px; }
+  .nt   { font-size: 9.5px; text-anchor: start; }
+  .ntb  { font-size: 10px; font-weight: 700; text-anchor: start; }
+  .ttl  { font-size: 21px; font-weight: 700; text-anchor: start; }
+  .sub  { font-size: 12.5px; fill:#444; text-anchor: start; }
+  .hdr  { font-size: 12px; font-weight:700; text-anchor: start; fill:#111; }
+</style>
+</defs>
+<rect width="1640" height="1010" fill="#fff"/>
+<g transform="translate(34,52)">
+<rect x="445" y="53" width="50" height="50" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<circle cx="470" cy="78" r="25" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<line x1="445" y1="78" x2="495" y2="78" stroke="#000" stroke-width="1"/>
+<text x="470" y="72" class="tag">FIC</text>
+<text x="470" y="94" class="tag">101</text>
+<rect x="745" y="53" width="50" height="50" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<circle cx="770" cy="78" r="25" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<line x1="745" y1="78" x2="795" y2="78" stroke="#000" stroke-width="1"/>
+<text x="770" y="72" class="tag">LIC</text>
+<text x="770" y="94" class="tag">102</text>
+<rect x="955" y="53" width="50" height="50" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<circle cx="980" cy="78" r="25" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<line x1="955" y1="78" x2="1005" y2="78" stroke="#000" stroke-width="1"/>
+<text x="980" y="72" class="tag">TIC</text>
+<text x="980" y="94" class="tag">102</text>
+<rect x="1155" y="53" width="50" height="50" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<circle cx="1180" cy="78" r="25" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<line x1="1155" y1="78" x2="1205" y2="78" stroke="#000" stroke-width="1"/>
+<text x="1180" y="72" class="tag">FFIC</text>
+<text x="1180" y="94" class="tag">103</text>
+<line x1="120" y1="130" x2="1440" y2="130" stroke="#999" stroke-width="1" stroke-dasharray="3,4"/>
+<text x="126" y="124" class="hdr">CONTROL ROOM</text>
+<text x="126" y="146" class="hdr">FIELD</text>
+<rect x="70" y="250" width="150" height="210" fill="none" stroke="#000" stroke-width="2"/>
+<text x="178" y="226" class="eqtag">T-101</text>
+<text x="178" y="242" class="eqname">Raw Water Tank</text>
+<circle cx="110" cy="178" r="23" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<line x1="87" y1="178" x2="133" y2="178" stroke="#000" stroke-width="1"/>
+<text x="110" y="172" class="tag">LT</text>
+<text x="110" y="194" class="tag">101</text>
+<path d="M 110 201 L 110 250" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6,4"/>
+<circle cx="45" cy="490" r="23" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<line x1="22" y1="490" x2="68" y2="490" stroke="#000" stroke-width="1"/>
+<text x="45" y="484" class="tag">LSLL</text>
+<text x="45" y="506" class="tag">101</text>
+<path d="M 45 467 L 45 430 L 70 430" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6,4"/>
+<path d="M 220 360 L 245 360" fill="none" stroke="#000" stroke-width="2.6"/>
+<path d="M 245 360 L 245 300 L 300 300" fill="none" stroke="#000" stroke-width="2.6"/>
+<path d="M 245 360 L 245 420 L 300 420" fill="none" stroke="#000" stroke-width="2.6"/>
+<polygon points="261,290 261,310 279,290 279,310" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<text x="270" y="326" class="vtag">V-101A</text>
+<polygon points="261,410 261,430 279,410 279,430" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<text x="270" y="446" class="vtag">V-101B</text>
+<circle cx="324" cy="300" r="24" fill="#fff" stroke="#000" stroke-width="2"/>
+<polygon points="314,287 314,313 339,300" fill="#000"/>
+<text x="324" y="342" class="eqtag">P-101A</text>
+<text x="324" y="356" class="eqname">Raw Water Duty</text>
+<circle cx="324" cy="420" r="24" fill="#fff" stroke="#000" stroke-width="2"/>
+<polygon points="314,407 314,433 339,420" fill="#000"/>
+<text x="324" y="462" class="eqtag">P-101B</text>
+<text x="324" y="476" class="eqname">Raw Water Standby</text>
+<polygon points="361,290 361,310 379,290 379,310" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<line x1="379" y1="288" x2="379" y2="312" stroke="#000" stroke-width="2"/>
+<text x="370" y="282" class="vtag">NRV-101A</text>
+<polygon points="361,410 361,430 379,410 379,430" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<line x1="379" y1="408" x2="379" y2="432" stroke="#000" stroke-width="2"/>
+<text x="370" y="402" class="vtag">NRV-101B</text>
+<polygon points="391,290 391,310 409,290 409,310" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<text x="400" y="326" class="vtag">V-102A</text>
+<polygon points="391,410 391,430 409,410 409,430" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<text x="400" y="446" class="vtag">V-102B</text>
+<path d="M 348 300 L 420 300 L 420 360" fill="none" stroke="#000" stroke-width="2.6"/>
+<path d="M 348 420 L 420 420 L 420 360" fill="none" stroke="#000" stroke-width="2.6"/>
+<path d="M 420 360 L 430 360" fill="none" stroke="#000" stroke-width="2.6"/>
+<circle cx="392" cy="214" r="23" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<line x1="369" y1="214" x2="415" y2="214" stroke="#000" stroke-width="1"/>
+<text x="392" y="208" class="tag">PT</text>
+<text x="392" y="230" class="tag">101</text>
+<path d="M 392 237 L 392 300" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6,4"/>
+<rect x="430" y="345" width="30" height="30" fill="#fff" stroke="#000" stroke-width="2"/>
+<text x="445" y="366" class="eqtag">M</text>
+<circle cx="445" cy="214" r="23" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<line x1="422" y1="214" x2="468" y2="214" stroke="#000" stroke-width="1"/>
+<text x="445" y="208" class="tag">FT</text>
+<text x="445" y="230" class="tag">101</text>
+<path d="M 445 237 L 445 345" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6,4"/>
+<path d="M 460 360 L 540 360" fill="none" stroke="#000" stroke-width="2.6"/>
+<polygon points="540,347 540,373 572,347 572,373" fill="#fff" stroke="#000" stroke-width="2"/>
+<path d="M 543 344 Q 556 326 569 344 Z" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<line x1="556" y1="344" x2="556" y2="335" stroke="#000" stroke-width="1.6"/>
+<text x="556" y="394" class="eqtag">FCV-101</text>
+<path d="M 572 360 L 640 360" fill="none" stroke="#000" stroke-width="2.6"/>
+<polygon points="640,347 640,373 672,347 672,373" fill="#fff" stroke="#000" stroke-width="2"/>
+<text x="656" y="394" class="eqtag">XV-101</text>
+<rect x="644" y="316" width="24" height="18" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<text x="656" y="330" class="tag">S</text>
+<circle cx="580" cy="452" r="20" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<line x1="560" y1="452" x2="600" y2="452" stroke="#000" stroke-width="1"/>
+<text x="580" y="446" class="tag">ZSO</text>
+<text x="580" y="468" class="tag">101</text>
+<path d="M 580 432 L 580 404 L 644 404 L 644 374" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6,4"/>
+<circle cx="660" cy="452" r="20" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<line x1="640" y1="452" x2="680" y2="452" stroke="#000" stroke-width="1"/>
+<text x="660" y="446" class="tag">ZSC</text>
+<text x="660" y="468" class="tag">101</text>
+<path d="M 660 432 L 660 374" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6,4"/>
+<path d="M 656 316 L 656 276" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6,4"/>
+<path d="M 672 360 L 760 360 L 760 300" fill="none" stroke="#000" stroke-width="2.6" marker-end="url(#ar)"/>
+<rect x="700" y="300" width="230" height="250" fill="none" stroke="#000" stroke-width="2"/>
+<text x="825" y="276" class="eqtag">T-102</text>
+<text x="825" y="292" class="eqname">Treatment Tank</text>
+<path d="M 730 500 L 730 470 L 760 470 L 760 500 L 790 500 L 790 470 L 820 470" fill="none" stroke="#000" stroke-width="2.5"/>
+<text x="775" y="522" class="eqtag">HTR-101</text>
+<text x="775" y="535" class="eqname">6 kW Immersion</text>
+<circle cx="960" cy="330" r="23" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<line x1="937" y1="330" x2="983" y2="330" stroke="#000" stroke-width="1"/>
+<text x="960" y="324" class="tag">LSHH</text>
+<text x="960" y="346" class="tag">102</text>
+<path d="M 937 330 L 930 330" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6,4"/>
+<circle cx="960" cy="400" r="23" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<line x1="937" y1="400" x2="983" y2="400" stroke="#000" stroke-width="1"/>
+<text x="960" y="394" class="tag">LT</text>
+<text x="960" y="416" class="tag">102</text>
+<path d="M 937 400 L 930 400" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6,4"/>
+<circle cx="960" cy="470" r="23" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<line x1="937" y1="470" x2="983" y2="470" stroke="#000" stroke-width="1"/>
+<text x="960" y="464" class="tag">TT</text>
+<text x="960" y="486" class="tag">102</text>
+<path d="M 937 470 L 930 470" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6,4"/>
+<circle cx="960" cy="540" r="23" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<line x1="937" y1="540" x2="983" y2="540" stroke="#000" stroke-width="1"/>
+<text x="960" y="534" class="tag">TSHH</text>
+<text x="960" y="556" class="tag">102</text>
+<path d="M 937 540 L 930 540" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6,4"/>
+<path d="M 715 300 L 715 278" fill="none" stroke="#000" stroke-width="2.6"/>
+<polygon points="705,278 725,278 705,260 725,260" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<path d="M 715 260 l -6 -5 l 12 -5 l -12 -5 l 12 -5" fill="none" stroke="#000" stroke-width="1.6"/>
+<text x="731" y="266" class="vtagL">PSV-102</text>
+<path d="M 715 250 L 715 226" fill="none" stroke="#000" stroke-width="2.6" marker-end="url(#ar)"/>
+<text x="723" y="230" class="noteL">NOTE 3</text>
+<rect x="700" y="626" width="110" height="130" fill="none" stroke="#000" stroke-width="2"/>
+<text x="755.0" y="602" class="eqtag">T-103</text>
+<text x="755.0" y="618" class="eqname">Chemical</text>
+<path d="M 810 696 L 860 696" fill="none" stroke="#000" stroke-width="2.6"/>
+<circle cx="884" cy="696" r="24" fill="#fff" stroke="#000" stroke-width="2"/>
+<polygon points="874,683 874,709 899,696" fill="#000"/>
+<text x="884" y="738" class="eqtag">P-103</text>
+<text x="884" y="752" class="eqname">Dosing Pump</text>
+<path d="M 908 696 L 960 696" fill="none" stroke="#000" stroke-width="2.6"/>
+<rect x="960" y="681" width="30" height="30" fill="#fff" stroke="#000" stroke-width="2"/>
+<text x="975" y="702" class="eqtag">C</text>
+<circle cx="1060" cy="696" r="23" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<line x1="1037" y1="696" x2="1083" y2="696" stroke="#000" stroke-width="1"/>
+<text x="1060" y="690" class="tag">FT</text>
+<text x="1060" y="712" class="tag">103</text>
+<path d="M 1037 696 L 990 696" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6,4"/>
+<path d="M 990 696 L 1360 696 L 1360 240 L 890 240 L 890 300" fill="none" stroke="#000" stroke-width="2.6" marker-end="url(#ar)"/>
+<path d="M 880 550 L 880 590 L 1010 590" fill="none" stroke="#000" stroke-width="2.6"/>
+<polygon points="1010,577 1010,603 1042,577 1042,603" fill="#fff" stroke="#000" stroke-width="2"/>
+<text x="1026" y="624" class="eqtag">XV-102</text>
+<rect x="1014" y="546" width="24" height="18" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<text x="1026" y="560" class="tag">S</text>
+<path d="M 1026 546 L 1026 520" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6,4"/>
+<path d="M 1042 590 L 1090 590" fill="none" stroke="#000" stroke-width="2.6"/>
+<circle cx="1114" cy="590" r="24" fill="#fff" stroke="#000" stroke-width="2"/>
+<polygon points="1104,577 1104,603 1129,590" fill="#000"/>
+<text x="1114" y="632" class="eqtag">P-102</text>
+<text x="1114" y="646" class="eqname">Discharge Pump</text>
+<path d="M 1114 566 L 1114 520" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6,4"/>
+<path d="M 1138 590 L 1250 590" fill="none" stroke="#000" stroke-width="2.6" marker-end="url(#ar)"/>
+<text x="1196" y="572" class="eqtag">TO STORAGE</text>
+<circle cx="1160" cy="470" r="23" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<line x1="1137" y1="470" x2="1183" y2="470" stroke="#000" stroke-width="1"/>
+<text x="1160" y="464" class="tag">AT</text>
+<text x="1160" y="486" class="tag">102</text>
+<path d="M 1160 493 L 1160 590" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6,4"/>
+<path d="M 445 191 L 445 150 L 470 150 L 470 103" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6,4"/>
+<path d="M 470 53 L 470 30 L 556 30 L 556 326" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6,4"/>
+<path d="M 960 377 L 1010 377 L 1010 150 L 770 150 L 770 103" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6,4"/>
+<path d="M 770 53 L 770 20 L 430 20 L 430 150 L 452 150" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6,4"/>
+<path d="M 960 447 L 1040 447 L 1040 140 L 980 140 L 980 103" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6,4"/>
+<path d="M 980 53 L 1000 53 L 1000 40 L 880 40 L 880 455 L 820 455 L 820 470" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6,4"/>
+<path d="M 1060 673 L 1060 636 L 1180 636 L 1180 103" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6,4"/>
+<path d="M 1180 53 L 1320 53 L 1320 616 L 884 616 L 884 672" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6,4"/>
+<path d="M 1160 447 L 1160 300 L 1236 300" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6,4"/>
+<text x="1244" y="304" class="noteL">NOTE 4</text>
+<path d="M 445 168 L 1128 168 L 1128 78 L 1155 78" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6,4"/>
+<circle cx="445" cy="168" r="2.6" fill="#000"/>
+<text x="262" y="344" class="line">50-WA-101</text>
+<text x="500" y="343" class="line">50-WA-102</text>
+<text x="945" y="573" class="line">50-WA-103</text>
+<text x="925" y="677" class="line">15-CH-101</text>
+</g>
+<rect x="12" y="12" width="1616" height="986" fill="none" stroke="#000" stroke-width="1"/>
+<rect x="30" y="30" width="1580" height="950" fill="none" stroke="#000" stroke-width="1.8"/>
+<text x="128.75" y="26" class="grid">1</text>
+<text x="128.75" y="994" class="grid">1</text>
+<text x="326.25" y="26" class="grid">2</text>
+<text x="326.25" y="994" class="grid">2</text>
+<line x1="227.5" y1="12" x2="227.5" y2="30" stroke="#000" stroke-width="1"/>
+<line x1="227.5" y1="980" x2="227.5" y2="998" stroke="#000" stroke-width="1"/>
+<text x="523.75" y="26" class="grid">3</text>
+<text x="523.75" y="994" class="grid">3</text>
+<line x1="425.0" y1="12" x2="425.0" y2="30" stroke="#000" stroke-width="1"/>
+<line x1="425.0" y1="980" x2="425.0" y2="998" stroke="#000" stroke-width="1"/>
+<text x="721.25" y="26" class="grid">4</text>
+<text x="721.25" y="994" class="grid">4</text>
+<line x1="622.5" y1="12" x2="622.5" y2="30" stroke="#000" stroke-width="1"/>
+<line x1="622.5" y1="980" x2="622.5" y2="998" stroke="#000" stroke-width="1"/>
+<text x="918.75" y="26" class="grid">5</text>
+<text x="918.75" y="994" class="grid">5</text>
+<line x1="820.0" y1="12" x2="820.0" y2="30" stroke="#000" stroke-width="1"/>
+<line x1="820.0" y1="980" x2="820.0" y2="998" stroke="#000" stroke-width="1"/>
+<text x="1116.25" y="26" class="grid">6</text>
+<text x="1116.25" y="994" class="grid">6</text>
+<line x1="1017.5" y1="12" x2="1017.5" y2="30" stroke="#000" stroke-width="1"/>
+<line x1="1017.5" y1="980" x2="1017.5" y2="998" stroke="#000" stroke-width="1"/>
+<text x="1313.75" y="26" class="grid">7</text>
+<text x="1313.75" y="994" class="grid">7</text>
+<line x1="1215.0" y1="12" x2="1215.0" y2="30" stroke="#000" stroke-width="1"/>
+<line x1="1215.0" y1="980" x2="1215.0" y2="998" stroke="#000" stroke-width="1"/>
+<text x="1511.25" y="26" class="grid">8</text>
+<text x="1511.25" y="994" class="grid">8</text>
+<line x1="1412.5" y1="12" x2="1412.5" y2="30" stroke="#000" stroke-width="1"/>
+<line x1="1412.5" y1="980" x2="1412.5" y2="998" stroke="#000" stroke-width="1"/>
+<text x="21" y="129.0" class="grid">A</text>
+<text x="1619" y="129.0" class="grid">A</text>
+<text x="21" y="319.0" class="grid">B</text>
+<text x="1619" y="319.0" class="grid">B</text>
+<line x1="12" y1="220.0" x2="30" y2="220.0" stroke="#000" stroke-width="1"/>
+<line x1="1610" y1="220.0" x2="1628" y2="220.0" stroke="#000" stroke-width="1"/>
+<text x="21" y="509.0" class="grid">C</text>
+<text x="1619" y="509.0" class="grid">C</text>
+<line x1="12" y1="410.0" x2="30" y2="410.0" stroke="#000" stroke-width="1"/>
+<line x1="1610" y1="410.0" x2="1628" y2="410.0" stroke="#000" stroke-width="1"/>
+<text x="21" y="699.0" class="grid">D</text>
+<text x="1619" y="699.0" class="grid">D</text>
+<line x1="12" y1="600.0" x2="30" y2="600.0" stroke="#000" stroke-width="1"/>
+<line x1="1610" y1="600.0" x2="1628" y2="600.0" stroke="#000" stroke-width="1"/>
+<text x="21" y="889.0" class="grid">E</text>
+<text x="1619" y="889.0" class="grid">E</text>
+<line x1="12" y1="790.0" x2="30" y2="790.0" stroke="#000" stroke-width="1"/>
+<line x1="1610" y1="790.0" x2="1628" y2="790.0" stroke="#000" stroke-width="1"/>
+<rect x="40" y="856" width="520" height="122" fill="none" stroke="#000" stroke-width="1.4"/>
+<line x1="40" y1="876" x2="560" y2="876" stroke="#000" stroke-width="1.4"/>
+<text x="48" y="870" class="ntb">NOTES</text>
+<text x="48" y="892" class="nt">1.  ALL INSTRUMENTS 4-20 mA UNLESS NOTED.</text>
+<text x="48" y="908" class="nt">2.  SAFETY CONTACTS WIRED NORMALLY CLOSED. DE-ENERGISE TO TRIP.</text>
+<text x="48" y="924" class="nt">3.  PSV-102 DISCHARGE TO SAFE LOCATION.</text>
+<text x="48" y="940" class="nt">4.  AT-102 SIGNAL TO HISTORIAN.</text>
+<text x="48" y="956" class="nt">5.  DRAWING SCOPED TO CONTROL SYSTEM. INSTRUMENT ROOT VALVES,</text>
+<text x="48" y="972" class="nt">     DRAINS AND PIPE SPECIFICATIONS NOT SHOWN.</text>
+<rect x="578" y="856" width="500" height="122" fill="none" stroke="#000" stroke-width="1.4"/>
+<line x1="578" y1="876" x2="1078" y2="876" stroke="#000" stroke-width="1.4"/>
+<text x="586" y="870" class="ntb">LEGEND</text>
+<line x1="592" y1="896" x2="648" y2="896" stroke="#000" stroke-width="2.6"/>
+<text x="658" y="900" class="nt">PROCESS LINE</text>
+<line x1="592" y1="918" x2="648" y2="918" stroke="#000" stroke-width="1" stroke-dasharray="6,4"/>
+<text x="658" y="922" class="nt">ELECTRICAL SIGNAL</text>
+<circle cx="620" cy="946" r="13" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<line x1="607" y1="946" x2="633" y2="946" stroke="#000" stroke-width="1"/>
+<text x="658" y="942" class="nt">FIELD MOUNTED INSTRUMENT</text>
+<rect x="823" y="933" width="26" height="26" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<circle cx="836" cy="946" r="13" fill="#fff" stroke="#000" stroke-width="1.6"/>
+<line x1="823" y1="946" x2="849" y2="946" stroke="#000" stroke-width="1"/>
+<text x="874" y="942" class="nt">CONTROL ROOM</text>
+<text x="874" y="954" class="nt">SHARED DISPLAY</text>
+<text x="592" y="972" class="nt">S = SOLENOID      M = MAGNETIC FLOWMETER      C = CORIOLIS FLOWMETER</text>
+<rect x="1096" y="856" width="504" height="122" fill="none" stroke="#000" stroke-width="1.8"/>
+<line x1="1096" y1="898" x2="1600" y2="898" stroke="#000" stroke-width="1"/>
+<line x1="1096" y1="928" x2="1600" y2="928" stroke="#000" stroke-width="1"/>
+<line x1="1096" y1="953" x2="1600" y2="953" stroke="#000" stroke-width="1"/>
+<line x1="1396" y1="928" x2="1396" y2="978" stroke="#000" stroke-width="1"/>
+<line x1="1496" y1="928" x2="1496" y2="978" stroke="#000" stroke-width="1"/>
+<line x1="1246" y1="953" x2="1246" y2="978" stroke="#000" stroke-width="1"/>
+<text x="1106" y="876" class="tbL">PROJECT</text>
+<text x="1106" y="892" class="tbT">WTS-100  WATER TREATMENT AND TRANSFER SKID</text>
+<text x="1106" y="912" class="tbL">TITLE</text>
+<text x="1166" y="913" class="tbV">PIPING AND INSTRUMENTATION DIAGRAM</text>
+<text x="1106" y="940" class="tbL">DRAWING No</text>
+<text x="1106" y="950" class="tbV">WTS-100-PID-001</text>
+<text x="1406" y="940" class="tbL">REV</text>
+<text x="1406" y="950" class="tbV">A</text>
+<text x="1506" y="940" class="tbL">SHEET</text>
+<text x="1506" y="950" class="tbV">1 OF 1</text>
+<text x="1106" y="966" class="tbL">DRAWN</text>
+<text x="1156" y="967" class="tbV">K. PREMNATH</text>
+<text x="1256" y="966" class="tbL">CHECKED</text>
+<text x="1406" y="966" class="tbL">SCALE</text>
+<text x="1446" y="967" class="tbV">NTS</text>
+<text x="1506" y="966" class="tbL">DATE</text>
+<text x="1541" y="967" class="tbV">AUG 2026</text>
+</svg>

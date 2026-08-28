@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1560 940" width="1560" height="940">
+<defs><style>
+      text { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; text-anchor: middle; fill:#000; }
+      .tag  { font-size: 10.5px; font-weight: 600; }
+      .desc { font-size: 8.5px; }
+      .rung { font-size: 11px; font-weight: 700; text-anchor: end; }
+      .note { font-size: 9.5px; text-anchor: start; font-style: italic; }
+      .h1   { font-size: 16px; font-weight: 700; text-anchor: start; letter-spacing:.4px; }
+      .h2   { font-size: 9.5px; text-anchor: start; }
+      .cmt  { font-size: 9.5px; text-anchor: start; font-weight: 600; }
+    </style></defs>
+<rect width="1560" height="940" fill="#fff"/>
+<rect x="12" y="12" width="1536" height="916" fill="none" stroke="#000" stroke-width="1"/>
+<text x="30" y="40" class="h1">POU_PUMPS   Duty and Standby Raw Water Pumps</text>
+<text x="30" y="57" class="h2">WTS-100 Water Treatment and Transfer Skid   |   IEC 61131-3 Ladder Diagram</text>
+<line x1="30" y1="66" x2="1530" y2="66" stroke="#000" stroke-width="1"/>
+<line x1="96" y1="90" x2="96" y2="880" stroke="#000" stroke-width="2.5"/>
+<line x1="1500" y1="90" x2="1500" y2="880" stroke="#000" stroke-width="2.5"/>
+<text x="30" y="110" class="cmt">RUNG 1   start and stop with seal in.  The seal in parallels START ONLY, so STOP and the safety permission stay in series and can always break the rung.</text>
+<text x="82" y="154" class="rung">1</text>
+<line x1="96" y1="150" x2="157.0" y2="150" stroke="#000" stroke-width="1.6"/>
+<line x1="157.0" y1="137" x2="157.0" y2="163" stroke="#000" stroke-width="2.2"/>
+<line x1="183.0" y1="137" x2="183.0" y2="163" stroke="#000" stroke-width="2.2"/>
+<text x="170.0" y="130" class="tag">HS_02_START</text>
+<text x="170.0" y="177" class="desc">start pushbutton</text>
+<line x1="183.0" y1="150" x2="244" y2="150" stroke="#000" stroke-width="1.6"/>
+<line x1="96" y1="150" x2="96" y2="208" stroke="#000" stroke-width="1.6"/>
+<line x1="244" y1="150" x2="244" y2="208" stroke="#000" stroke-width="1.6"/>
+<line x1="96" y1="208" x2="157.0" y2="208" stroke="#000" stroke-width="1.6"/>
+<line x1="157.0" y1="195" x2="157.0" y2="221" stroke="#000" stroke-width="2.2"/>
+<line x1="183.0" y1="195" x2="183.0" y2="221" stroke="#000" stroke-width="2.2"/>
+<text x="170.0" y="188" class="tag">RUN_REQ</text>
+<text x="170.0" y="235" class="desc">seal in</text>
+<line x1="183.0" y1="208" x2="244" y2="208" stroke="#000" stroke-width="1.6"/>
+<line x1="244" y1="150" x2="305.0" y2="150" stroke="#000" stroke-width="1.6"/>
+<line x1="305.0" y1="137" x2="305.0" y2="163" stroke="#000" stroke-width="2.2"/>
+<line x1="331.0" y1="137" x2="331.0" y2="163" stroke="#000" stroke-width="2.2"/>
+<line x1="302.0" y1="164" x2="334.0" y2="136" stroke="#000" stroke-width="2"/>
+<text x="318.0" y="130" class="tag">HS_03_STOP</text>
+<text x="318.0" y="177" class="desc">stop, wired NC</text>
+<line x1="331.0" y1="150" x2="392" y2="150" stroke="#000" stroke-width="1.6"/>
+<line x1="392" y1="150" x2="453.0" y2="150" stroke="#000" stroke-width="1.6"/>
+<line x1="453.0" y1="137" x2="453.0" y2="163" stroke="#000" stroke-width="2.2"/>
+<line x1="479.0" y1="137" x2="479.0" y2="163" stroke="#000" stroke-width="2.2"/>
+<text x="466.0" y="130" class="tag">PERM_RAW_PUMPS</text>
+<text x="466.0" y="177" class="desc">from POU_SAFETY</text>
+<line x1="479.0" y1="150" x2="540" y2="150" stroke="#000" stroke-width="1.6"/>
+<line x1="540" y1="150" x2="1163" y2="150" stroke="#000" stroke-width="1.6"/>
+<path d="M 1163 136 A 18 18 0 0 0 1163 164" fill="none" stroke="#000" stroke-width="2.2"/>
+<path d="M 1197 136 A 18 18 0 0 1 1197 164" fill="none" stroke="#000" stroke-width="2.2"/>
+<line x1="1197" y1="150" x2="1500" y2="150" stroke="#000" stroke-width="1.6"/>
+<text x="1180" y="130" class="tag">RUN_REQ</text>
+<text x="1180" y="177" class="desc">pumps requested to run</text>
+<text x="30" y="270" class="cmt">RUNG 2   duty pump A runs when A is selected and healthy.</text>
+<text x="82" y="314" class="rung">2</text>
+<line x1="96" y1="310" x2="157.0" y2="310" stroke="#000" stroke-width="1.6"/>
+<line x1="157.0" y1="297" x2="157.0" y2="323" stroke="#000" stroke-width="2.2"/>
+<line x1="183.0" y1="297" x2="183.0" y2="323" stroke="#000" stroke-width="2.2"/>
+<text x="170.0" y="290" class="tag">RUN_REQ</text>
+<line x1="183.0" y1="310" x2="244" y2="310" stroke="#000" stroke-width="1.6"/>
+<line x1="244" y1="310" x2="305.0" y2="310" stroke="#000" stroke-width="1.6"/>
+<line x1="305.0" y1="297" x2="305.0" y2="323" stroke="#000" stroke-width="2.2"/>
+<line x1="331.0" y1="297" x2="331.0" y2="323" stroke="#000" stroke-width="2.2"/>
+<text x="318.0" y="290" class="tag">DUTY_IS_A</text>
+<text x="318.0" y="337" class="desc">A selected as duty</text>
+<line x1="331.0" y1="310" x2="392" y2="310" stroke="#000" stroke-width="1.6"/>
+<line x1="392" y1="310" x2="453.0" y2="310" stroke="#000" stroke-width="1.6"/>
+<line x1="453.0" y1="297" x2="453.0" y2="323" stroke="#000" stroke-width="2.2"/>
+<line x1="479.0" y1="297" x2="479.0" y2="323" stroke="#000" stroke-width="2.2"/>
+<line x1="450.0" y1="324" x2="482.0" y2="296" stroke="#000" stroke-width="2"/>
+<text x="466.0" y="290" class="tag">FAULT_A</text>
+<text x="466.0" y="337" class="desc">A healthy</text>
+<line x1="479.0" y1="310" x2="540" y2="310" stroke="#000" stroke-width="1.6"/>
+<line x1="540" y1="310" x2="1163" y2="310" stroke="#000" stroke-width="1.6"/>
+<path d="M 1163 296 A 18 18 0 0 0 1163 324" fill="none" stroke="#000" stroke-width="2.2"/>
+<path d="M 1197 296 A 18 18 0 0 1 1197 324" fill="none" stroke="#000" stroke-width="2.2"/>
+<line x1="1197" y1="310" x2="1500" y2="310" stroke="#000" stroke-width="1.6"/>
+<text x="1180" y="290" class="tag">MTR_101A</text>
+<text x="1180" y="337" class="desc">pump A contactor</text>
+<text x="30" y="380" class="cmt">RUNG 3   standby pump B runs if B is duty, or if A has faulted.</text>
+<text x="82" y="424" class="rung">3</text>
+<line x1="96" y1="420" x2="157.0" y2="420" stroke="#000" stroke-width="1.6"/>
+<line x1="157.0" y1="407" x2="157.0" y2="433" stroke="#000" stroke-width="2.2"/>
+<line x1="183.0" y1="407" x2="183.0" y2="433" stroke="#000" stroke-width="2.2"/>
+<text x="170.0" y="400" class="tag">RUN_REQ</text>
+<line x1="183.0" y1="420" x2="244" y2="420" stroke="#000" stroke-width="1.6"/>
+<line x1="244" y1="420" x2="305.0" y2="420" stroke="#000" stroke-width="1.6"/>
+<line x1="305.0" y1="407" x2="305.0" y2="433" stroke="#000" stroke-width="2.2"/>
+<line x1="331.0" y1="407" x2="331.0" y2="433" stroke="#000" stroke-width="2.2"/>
+<line x1="302.0" y1="434" x2="334.0" y2="406" stroke="#000" stroke-width="2"/>
+<text x="318.0" y="400" class="tag">DUTY_IS_A</text>
+<text x="318.0" y="447" class="desc">B is duty</text>
+<line x1="331.0" y1="420" x2="392" y2="420" stroke="#000" stroke-width="1.6"/>
+<line x1="392" y1="420" x2="453.0" y2="420" stroke="#000" stroke-width="1.6"/>
+<line x1="453.0" y1="407" x2="453.0" y2="433" stroke="#000" stroke-width="2.2"/>
+<line x1="479.0" y1="407" x2="479.0" y2="433" stroke="#000" stroke-width="2.2"/>
+<line x1="450.0" y1="434" x2="482.0" y2="406" stroke="#000" stroke-width="2"/>
+<text x="466.0" y="400" class="tag">FAULT_B</text>
+<text x="466.0" y="447" class="desc">B healthy</text>
+<line x1="479.0" y1="420" x2="540" y2="420" stroke="#000" stroke-width="1.6"/>
+<line x1="96" y1="420" x2="96" y2="478" stroke="#000" stroke-width="1.6"/>
+<line x1="540" y1="420" x2="540" y2="478" stroke="#000" stroke-width="1.6"/>
+<line x1="96" y1="478" x2="157.0" y2="478" stroke="#000" stroke-width="1.6"/>
+<line x1="157.0" y1="465" x2="157.0" y2="491" stroke="#000" stroke-width="2.2"/>
+<line x1="183.0" y1="465" x2="183.0" y2="491" stroke="#000" stroke-width="2.2"/>
+<text x="170.0" y="458" class="tag">RUN_REQ</text>
+<line x1="183.0" y1="478" x2="244" y2="478" stroke="#000" stroke-width="1.6"/>
+<line x1="244" y1="478" x2="305.0" y2="478" stroke="#000" stroke-width="1.6"/>
+<line x1="305.0" y1="465" x2="305.0" y2="491" stroke="#000" stroke-width="2.2"/>
+<line x1="331.0" y1="465" x2="331.0" y2="491" stroke="#000" stroke-width="2.2"/>
+<text x="318.0" y="458" class="tag">FAULT_A</text>
+<text x="318.0" y="505" class="desc">A has failed</text>
+<line x1="331.0" y1="478" x2="392" y2="478" stroke="#000" stroke-width="1.6"/>
+<line x1="392" y1="478" x2="453.0" y2="478" stroke="#000" stroke-width="1.6"/>
+<line x1="453.0" y1="465" x2="453.0" y2="491" stroke="#000" stroke-width="2.2"/>
+<line x1="479.0" y1="465" x2="479.0" y2="491" stroke="#000" stroke-width="2.2"/>
+<line x1="450.0" y1="492" x2="482.0" y2="464" stroke="#000" stroke-width="2"/>
+<text x="466.0" y="458" class="tag">FAULT_B</text>
+<line x1="479.0" y1="478" x2="540" y2="478" stroke="#000" stroke-width="1.6"/>
+<line x1="540" y1="420" x2="1163" y2="420" stroke="#000" stroke-width="1.6"/>
+<path d="M 1163 406 A 18 18 0 0 0 1163 434" fill="none" stroke="#000" stroke-width="2.2"/>
+<path d="M 1197 406 A 18 18 0 0 1 1197 434" fill="none" stroke="#000" stroke-width="2.2"/>
+<line x1="1197" y1="420" x2="1500" y2="420" stroke="#000" stroke-width="1.6"/>
+<text x="1180" y="400" class="tag">MTR_101B</text>
+<text x="1180" y="447" class="desc">pump B contactor</text>
+<text x="30" y="550" class="cmt">RUNG 4   pump A fault.  Commanded on but no run feedback within 3 seconds.</text>
+<text x="82" y="594" class="rung">4</text>
+<line x1="96" y1="590" x2="157.0" y2="590" stroke="#000" stroke-width="1.6"/>
+<line x1="157.0" y1="577" x2="157.0" y2="603" stroke="#000" stroke-width="2.2"/>
+<line x1="183.0" y1="577" x2="183.0" y2="603" stroke="#000" stroke-width="2.2"/>
+<text x="170.0" y="570" class="tag">MTR_101A</text>
+<text x="170.0" y="617" class="desc">commanded on</text>
+<line x1="183.0" y1="590" x2="244" y2="590" stroke="#000" stroke-width="1.6"/>
+<line x1="244" y1="590" x2="305.0" y2="590" stroke="#000" stroke-width="1.6"/>
+<line x1="305.0" y1="577" x2="305.0" y2="603" stroke="#000" stroke-width="2.2"/>
+<line x1="331.0" y1="577" x2="331.0" y2="603" stroke="#000" stroke-width="2.2"/>
+<line x1="302.0" y1="604" x2="334.0" y2="576" stroke="#000" stroke-width="2"/>
+<text x="318.0" y="570" class="tag">XS_101A</text>
+<text x="318.0" y="617" class="desc">no run feedback</text>
+<line x1="331.0" y1="590" x2="392" y2="590" stroke="#000" stroke-width="1.6"/>
+<rect x="412.0" y="565.0" width="108" height="50" fill="#fff" stroke="#000" stroke-width="1.8"/>
+<text x="466.0" y="580.0" class="tag">TON</text>
+<text x="466.0" y="592" class="desc">T_FAULT_A</text>
+<text x="466.0" y="604" class="desc">PT 3 s</text>
+<line x1="392" y1="590" x2="412.0" y2="590" stroke="#000" stroke-width="1.6"/>
+<line x1="520.0" y1="590" x2="540" y2="590" stroke="#000" stroke-width="1.6"/>
+<line x1="540" y1="590" x2="1163" y2="590" stroke="#000" stroke-width="1.6"/>
+<path d="M 1163 576 A 18 18 0 0 0 1163 604" fill="none" stroke="#000" stroke-width="2.2"/>
+<path d="M 1197 576 A 18 18 0 0 1 1197 604" fill="none" stroke="#000" stroke-width="2.2"/>
+<text x="1180" y="595" class="tag">L</text>
+<line x1="1197" y1="590" x2="1500" y2="590" stroke="#000" stroke-width="1.6"/>
+<text x="1180" y="570" class="tag">FAULT_A</text>
+<text x="1180" y="617" class="desc">latched</text>
+<text x="30" y="660" class="cmt">RUNG 5   pump B fault.  The same test on the other pump.</text>
+<text x="82" y="704" class="rung">5</text>
+<line x1="96" y1="700" x2="157.0" y2="700" stroke="#000" stroke-width="1.6"/>
+<line x1="157.0" y1="687" x2="157.0" y2="713" stroke="#000" stroke-width="2.2"/>
+<line x1="183.0" y1="687" x2="183.0" y2="713" stroke="#000" stroke-width="2.2"/>
+<text x="170.0" y="680" class="tag">MTR_101B</text>
+<text x="170.0" y="727" class="desc">commanded on</text>
+<line x1="183.0" y1="700" x2="244" y2="700" stroke="#000" stroke-width="1.6"/>
+<line x1="244" y1="700" x2="305.0" y2="700" stroke="#000" stroke-width="1.6"/>
+<line x1="305.0" y1="687" x2="305.0" y2="713" stroke="#000" stroke-width="2.2"/>
+<line x1="331.0" y1="687" x2="331.0" y2="713" stroke="#000" stroke-width="2.2"/>
+<line x1="302.0" y1="714" x2="334.0" y2="686" stroke="#000" stroke-width="2"/>
+<text x="318.0" y="680" class="tag">XS_101B</text>
+<text x="318.0" y="727" class="desc">no run feedback</text>
+<line x1="331.0" y1="700" x2="392" y2="700" stroke="#000" stroke-width="1.6"/>
+<rect x="412.0" y="675.0" width="108" height="50" fill="#fff" stroke="#000" stroke-width="1.8"/>
+<text x="466.0" y="690.0" class="tag">TON</text>
+<text x="466.0" y="702" class="desc">T_FAULT_B</text>
+<text x="466.0" y="714" class="desc">PT 3 s</text>
+<line x1="392" y1="700" x2="412.0" y2="700" stroke="#000" stroke-width="1.6"/>
+<line x1="520.0" y1="700" x2="540" y2="700" stroke="#000" stroke-width="1.6"/>
+<line x1="540" y1="700" x2="1163" y2="700" stroke="#000" stroke-width="1.6"/>
+<path d="M 1163 686 A 18 18 0 0 0 1163 714" fill="none" stroke="#000" stroke-width="2.2"/>
+<path d="M 1197 686 A 18 18 0 0 1 1197 714" fill="none" stroke="#000" stroke-width="2.2"/>
+<text x="1180" y="705" class="tag">L</text>
+<line x1="1197" y1="700" x2="1500" y2="700" stroke="#000" stroke-width="1.6"/>
+<text x="1180" y="680" class="tag">FAULT_B</text>
+<text x="1180" y="727" class="desc">latched</text>
+<text x="30" y="770" class="cmt">RUNG 6   both pumps failed.  This is interlock I6 and it trips the plant.</text>
+<text x="82" y="814" class="rung">6</text>
+<line x1="96" y1="810" x2="157.0" y2="810" stroke="#000" stroke-width="1.6"/>
+<line x1="157.0" y1="797" x2="157.0" y2="823" stroke="#000" stroke-width="2.2"/>
+<line x1="183.0" y1="797" x2="183.0" y2="823" stroke="#000" stroke-width="2.2"/>
+<text x="170.0" y="790" class="tag">FAULT_A</text>
+<line x1="183.0" y1="810" x2="244" y2="810" stroke="#000" stroke-width="1.6"/>
+<line x1="244" y1="810" x2="305.0" y2="810" stroke="#000" stroke-width="1.6"/>
+<line x1="305.0" y1="797" x2="305.0" y2="823" stroke="#000" stroke-width="2.2"/>
+<line x1="331.0" y1="797" x2="331.0" y2="823" stroke="#000" stroke-width="2.2"/>
+<text x="318.0" y="790" class="tag">FAULT_B</text>
+<line x1="331.0" y1="810" x2="392" y2="810" stroke="#000" stroke-width="1.6"/>
+<line x1="392" y1="810" x2="1163" y2="810" stroke="#000" stroke-width="1.6"/>
+<path d="M 1163 796 A 18 18 0 0 0 1163 824" fill="none" stroke="#000" stroke-width="2.2"/>
+<path d="M 1197 796 A 18 18 0 0 1 1197 824" fill="none" stroke="#000" stroke-width="2.2"/>
+<line x1="1197" y1="810" x2="1500" y2="810" stroke="#000" stroke-width="1.6"/>
+<text x="1180" y="790" class="tag">BOTH_PUMPS_FAILED</text>
+<text x="1180" y="837" class="desc">to POU_SAFETY rung 1</text>
+<text x="30" y="916" class="note">Duty alternates on each completed batch so running hours stay even.  A fault on the duty pump transfers to the standby automatically and records which pump failed first.</text>
+</svg>

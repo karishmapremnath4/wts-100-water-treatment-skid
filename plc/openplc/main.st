@@ -1,0 +1,38 @@
+PROGRAM main
+  VAR
+    Safety : pou_safety;
+    ESD_01_OK : BOOL := FALSE;
+    TSHH_102_OK : BOOL := TRUE;
+    XA_101A_OK : BOOL := TRUE;
+    XA_101B_OK : BOOL := TRUE;
+    LSLL_101_OK : BOOL := TRUE;
+    LSHH_102_OK : BOOL := TRUE;
+    LT_102_VALID : BOOL := TRUE;
+    TT_102_VALID : BOOL := TRUE;
+    LT_102_MM : REAL := 1800.0;
+    HS_04_RESET : BOOL := FALSE;
+    PERM_RAW_PUMPS : BOOL;
+    PERM_HEATER : BOOL;
+    PERM_INLET : BOOL;
+    TRIP : BOOL;
+    FIRST_OUT : INT;
+  END_VAR
+
+Safety(ESD_01_OK := ESD_01_OK,
+       TSHH_102_OK := TSHH_102_OK,
+       XA_101A_OK := XA_101A_OK,
+       XA_101B_OK := XA_101B_OK,
+       LSLL_101_OK := LSLL_101_OK,
+       LSHH_102_OK := LSHH_102_OK,
+       LT_102_VALID := LT_102_VALID,
+       TT_102_VALID := TT_102_VALID,
+       LT_102_MM := LT_102_MM,
+       HS_04_RESET := HS_04_RESET);
+
+PERM_RAW_PUMPS := Safety.PERM_RAW_PUMPS;
+PERM_HEATER := Safety.PERM_HEATER;
+PERM_INLET := Safety.PERM_INLET;
+TRIP := Safety.TRIP;
+FIRST_OUT := Safety.FIRST_OUT;
+
+END_PROGRAM

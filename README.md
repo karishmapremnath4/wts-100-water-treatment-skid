@@ -42,6 +42,13 @@ Two things here are easy to get wrong and I had to think about both:
 - The two pump overloads are in series, not parallel. One pump failing changes over
   to the standby. Only both failing trips the plant.
 
+## Running it in OpenPLC
+
+The POUs are not only Python. `POU_SAFETY` and `POU_PUMPS` compile and run in
+OpenPLC as Structured Text, built through the OpenPLC Simulator toolchain. The
+copies in `plc/openplc/` are stripped of the comment headers so they paste
+straight into the OpenPLC Editor.
+
 ## Testing
 
     python3 tests/test_ladder.py     26 logic tests on the safety and pump logic
@@ -83,8 +90,9 @@ every scan and there is an example run in `sim/batch_log_example.csv`.
 
 - The plant is simulated, not real hardware. The models are first order with dead
   time, so they are not a validated plant model.
-- The POUs compile and run in OpenPLC, but as Structured Text. I have not entered
-  the ladder as an LD program yet. That is the next thing I want to do.
+- I have entered the logic in OpenPLC as Structured Text, not as ladder. Entering
+  the 28 rungs as an LD program and checking they behave the same is the next thing
+  I want to do.
 - This is not a rated safety system. The e-stop and the over temperature trip are
   also wired through hardware contactors in the narrative, because the PLC should
   not be the last line of defence. There is no SIL rating and no hazard study.

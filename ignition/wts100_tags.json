@@ -1,0 +1,351 @@
+{
+  "name": "",
+  "tagType": "Provider",
+  "tags": [
+    {
+      "name": "WTS100",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "AnalogIn",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "LT_101",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]IR1",
+              "dataType": "Float8",
+              "scaleMode": "Linear",
+              "rawLow": 0.0,
+              "rawHigh": 27648.0,
+              "scaledLow": 0.0,
+              "scaledHigh": 3000.0,
+              "engLow": 0.0,
+              "engHigh": 3000.0,
+              "engUnit": "mm",
+              "formatString": "#,##0.0"
+            },
+            {
+              "name": "LT_102",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]IR2",
+              "dataType": "Float8",
+              "scaleMode": "Linear",
+              "rawLow": 0.0,
+              "rawHigh": 27648.0,
+              "scaledLow": 0.0,
+              "scaledHigh": 2500.0,
+              "engLow": 0.0,
+              "engHigh": 2500.0,
+              "engUnit": "mm",
+              "formatString": "#,##0.0"
+            },
+            {
+              "name": "FT_101",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]IR3",
+              "dataType": "Float8",
+              "scaleMode": "Linear",
+              "rawLow": 0.0,
+              "rawHigh": 27648.0,
+              "scaledLow": 0.0,
+              "scaledHigh": 50.0,
+              "engLow": 0.0,
+              "engHigh": 50.0,
+              "engUnit": "m3/h",
+              "formatString": "#,##0.0"
+            },
+            {
+              "name": "FT_103",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]IR4",
+              "dataType": "Float8",
+              "scaleMode": "Linear",
+              "rawLow": 0.0,
+              "rawHigh": 27648.0,
+              "scaledLow": 0.0,
+              "scaledHigh": 500.0,
+              "engLow": 0.0,
+              "engHigh": 500.0,
+              "engUnit": "L/h",
+              "formatString": "#,##0.0"
+            },
+            {
+              "name": "TT_102",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]IR5",
+              "dataType": "Float8",
+              "scaleMode": "Linear",
+              "rawLow": 0.0,
+              "rawHigh": 27648.0,
+              "scaledLow": 0.0,
+              "scaledHigh": 100.0,
+              "engLow": 0.0,
+              "engHigh": 100.0,
+              "engUnit": "degC",
+              "formatString": "#,##0.0"
+            },
+            {
+              "name": "PT_101",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]IR6",
+              "dataType": "Float8",
+              "scaleMode": "Linear",
+              "rawLow": 0.0,
+              "rawHigh": 27648.0,
+              "scaledLow": 0.0,
+              "scaledHigh": 10.0,
+              "engLow": 0.0,
+              "engHigh": 10.0,
+              "engUnit": "bar",
+              "formatString": "#,##0.0"
+            },
+            {
+              "name": "AT_102",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]IR7",
+              "dataType": "Float8",
+              "scaleMode": "Linear",
+              "rawLow": 0.0,
+              "rawHigh": 27648.0,
+              "scaledLow": 0.0,
+              "scaledHigh": 2000.0,
+              "engLow": 0.0,
+              "engHigh": 2000.0,
+              "engUnit": "uS/cm",
+              "formatString": "#,##0.0"
+            }
+          ]
+        },
+        {
+          "name": "AnalogOut",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "FCV_101",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]HR1",
+              "dataType": "Float8",
+              "scaleMode": "Linear",
+              "rawLow": 0.0,
+              "rawHigh": 27648.0,
+              "scaledLow": 0.0,
+              "scaledHigh": 100.0,
+              "engLow": 0.0,
+              "engHigh": 100.0,
+              "engUnit": "%",
+              "formatString": "#,##0.0"
+            },
+            {
+              "name": "HTR_101",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]HR2",
+              "dataType": "Float8",
+              "scaleMode": "Linear",
+              "rawLow": 0.0,
+              "rawHigh": 27648.0,
+              "scaledLow": 0.0,
+              "scaledHigh": 100.0,
+              "engLow": 0.0,
+              "engHigh": 100.0,
+              "engUnit": "%",
+              "formatString": "#,##0.0"
+            },
+            {
+              "name": "P_103",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]HR3",
+              "dataType": "Float8",
+              "scaleMode": "Linear",
+              "rawLow": 0.0,
+              "rawHigh": 27648.0,
+              "scaledLow": 0.0,
+              "scaledHigh": 100.0,
+              "engLow": 0.0,
+              "engHigh": 100.0,
+              "engUnit": "%",
+              "formatString": "#,##0.0"
+            },
+            {
+              "name": "P_102",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]HR4",
+              "dataType": "Float8",
+              "scaleMode": "Linear",
+              "rawLow": 0.0,
+              "rawHigh": 27648.0,
+              "scaledLow": 0.0,
+              "scaledHigh": 100.0,
+              "engLow": 0.0,
+              "engHigh": 100.0,
+              "engUnit": "%",
+              "formatString": "#,##0.0"
+            }
+          ]
+        },
+        {
+          "name": "DiscreteIn",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "ESD_01_OK",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]DI1",
+              "dataType": "Boolean"
+            },
+            {
+              "name": "LSLL_101_OK",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]DI2",
+              "dataType": "Boolean"
+            },
+            {
+              "name": "LSHH_102_OK",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]DI3",
+              "dataType": "Boolean"
+            },
+            {
+              "name": "TSHH_102_OK",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]DI4",
+              "dataType": "Boolean"
+            },
+            {
+              "name": "XA_101A_OK",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]DI5",
+              "dataType": "Boolean"
+            },
+            {
+              "name": "XA_101B_OK",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]DI6",
+              "dataType": "Boolean"
+            },
+            {
+              "name": "XS_101A",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]DI7",
+              "dataType": "Boolean"
+            },
+            {
+              "name": "XS_101B",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]DI8",
+              "dataType": "Boolean"
+            }
+          ]
+        },
+        {
+          "name": "Coils",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "MTR_101A",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]C1",
+              "dataType": "Boolean"
+            },
+            {
+              "name": "MTR_101B",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]C2",
+              "dataType": "Boolean"
+            },
+            {
+              "name": "XV_101",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]C3",
+              "dataType": "Boolean"
+            },
+            {
+              "name": "XV_102",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]C4",
+              "dataType": "Boolean"
+            },
+            {
+              "name": "HTR_EN",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]C5",
+              "dataType": "Boolean"
+            },
+            {
+              "name": "MTR_102",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]C6",
+              "dataType": "Boolean"
+            },
+            {
+              "name": "ALM_H",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]C7",
+              "dataType": "Boolean"
+            },
+            {
+              "name": "ALM_B",
+              "tagType": "AtomicTag",
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "opcItemPath": "ns=1;s=[WTS100]C8",
+              "dataType": "Boolean"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

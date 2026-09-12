@@ -93,6 +93,7 @@ Expected against actual for every case is in [docs/04_FAT_results.md](docs/04_FA
     screenshots/   OpenPLC running the safety block
     tools/         the scripts that draw the diagrams and make the PDFs
     pdf/           the documents as PDFs
+    ignition/      the Ignition tag export for the Modbus device
 
 ## Running the simulation
 
@@ -103,6 +104,23 @@ Needs Python 3.9 or newer.
 Then three things in three terminals, the plant, the controller and the HMI. The
 steps are in [sim/HOW_TO_RUN.md](sim/HOW_TO_RUN.md). The historian writes a CSV of
 every scan and there is an example run in `sim/batch_log_example.csv`.
+
+## SCADA integration
+
+The plant simulator is a Modbus TCP server, so a SCADA platform can read it the
+same way the controller does. I connected Ignition 8.3 to it as a second client.
+
+The device connection is Modbus TCP, host `127.0.0.1`, port `5020`. Analog values
+cross the link as raw 4-20 mA counts, so the tags do the counts to engineering
+units conversion with linear scaling, 0 to 27648 against the ranges in
+[docs/03_signal_scaling.md](docs/03_signal_scaling.md).
+
+`ignition/wts100_tags.json` holds all 27 tags, the 7 analog inputs, 4 analog
+outputs, 8 discrete inputs and 8 coils. Import it in the Designer with a right
+click in the Tag Browser, Import Tags, Direct.
+
+Reads only. The controller writes every coil on every scan, so anything the SCADA
+writes is overwritten within a second.
 
 ## What's missing / next
 
